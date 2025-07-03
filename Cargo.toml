@@ -1,0 +1,16 @@
+[package]
+name = "xp-timekeeping"
+version = "0.1.0"
+edition = "2021"
+description = "Base-10 temporal architecture for the Extropy Engine ecosystem"
+license = "MIT"
+repository = "https://github.com/00ranman/xp-timekeeping"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+
+[lib]
+name = "xp_timekeeping"
+path = "src/lib.rs"
