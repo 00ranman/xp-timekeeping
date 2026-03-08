@@ -2,6 +2,13 @@
 
 Base-10 temporal architecture for the Extropy Engine ecosystem.
 
+## Ecosystem Integration
+
+> **Ecosystem Note:** This is the standalone Rust implementation. The deployed TypeScript re-implementation lives in the [extropy-engine](https://github.com/00ranman/extropy-engine) monorepo at `packages/temporal` (port 4011).
+>
+> See [ECOSYSTEM_MAP.md](https://github.com/00ranman/extropy-engine/blob/main/ECOSYSTEM_MAP.md) for the full repository mapping.
+
+
 ## Overview
 
 XP Timekeeping implements a revolutionary base-10 temporal system that eliminates the complexities of traditional calendars (leap years, irregular month lengths) while providing precise time representation for physics-based governance systems.
