@@ -1,0 +1,15 @@
+# Rust
+target/
+Cargo.lock
+
+# TypeScript
+ts/node_modules/
+ts/dist/
+ts/package-lock.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

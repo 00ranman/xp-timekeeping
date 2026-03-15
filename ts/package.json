@@ -1,0 +1,24 @@
+{
+  "name": "xp-timekeeping",
+  "version": "4.0.0",
+  "description": "Universal Times v4.0 — Hydrogen-anchored dual-system temporal infrastructure for multi-planetary timekeeping",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/*.test.js",
+    "prebuild": "",
+    "pretest": "tsc"
+  },
+  "keywords": [
+    "timekeeping",
+    "universal-times",
+    "hydrogen",
+    "multi-planetary",
+    "solar-clock"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
